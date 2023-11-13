@@ -1,0 +1,43 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.machine {
+  width: 500px;
+  background: yellow;
+  padding: 50px;
+  display: grid;
+  gap: 50px;
+}
+.machine .screen {
+  background: #000;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.machine .screen .item {
+  background: white;
+  font-size: 5rem;
+  padding: 50px 10px;
+  display: inline-block;
+}
+.machine .balance {
+  background: grey;
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+}
+.machine .play-btn {
+  all: unset;
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  color: black;
+  font-family: cursive;
+  letter-spacing: 25px;
+  text-align: center;
+  background: lime;
+  font-size: 5rem;
+}/*# sourceMappingURL=lucky-slots.css.map */
